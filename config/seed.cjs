@@ -1,8 +1,8 @@
 require('dotenv').config();
 require('./database.cjs');
 
-const Category = require('../models/Category');
-const Item = require('../models/Item');
+const Category = require('../models/Category.cjs');
+const Item = require('../models/Item.cjs');
 
 (async function () {
   await Category.deleteMany({});
