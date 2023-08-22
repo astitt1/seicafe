@@ -7,7 +7,8 @@
     "dev": "concurrently \"nodemon server.cjs\" \"vite\"",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "seed": "node config/seed.cjs"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
